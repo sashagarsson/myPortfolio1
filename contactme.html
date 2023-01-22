@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="contact-styles.css">
+</head>
+<body>
+  <header>
+    <img src="https://cdn.evbuc.com/eventlogos/188084824/acastandardcirclefullname.png" class="logo" alt="austin coding academy logo">
+    <nav>
+      <a class="has-border" href="./index.html">HOME</a>
+        <a class="has-border" href="./resume.html">RESUME</a>
+        <a class="has-border" href="./aboutPage.html">ABOUT ME</a>
+        <a class="has-border">MY BLOG</a>
+        <a class="has-border" href="./contactme.html">CONTACT</a>
+    </nav>
+    </header>
+    <main> 
+        <h1>Contact Me!</h1>
+
+
+    </main>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" >
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" >
+    </div>
+    <div>
+      <label for="date">Date</label>
+      <input type="date" name="date" id="date" min="2023-1-1">
+    </div>
+    <div>
+      How did you hear about me?
+      <div class="classmate">
+        <label for="option1">Classmate</label>
+        <input type="checkbox" name="classmate" id="classmate">
+      </div>
+      <div class="resume">
+         <label for="option2">Resume submission</label> 
+       <input type="checkbox" name="resume" id="resume"> 
+      </div>
+      <div class="linkedin">
+        <label for="option3">LinkedIn</label>
+        <input type="checkbox" name="linkedin" id="linkedin">
+      </div>
+      <div class="acadamey">
+        <label for="option4">Coding Acadamey recommendation</label>
+        <input type="checkbox" name="acadamey" id="acadamey">
+      </div>
+    </div>
+    <div>
+      Do you want to be contacted back?
+      <div class="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="contact" id="yes" value="yes">
+      </div>
+      <div class="no">
+        <label for="no">No</label>
+        <input type="radio" name="contact" id="no" value="no">
+      </div>
+
+    </div>
+
+    <div>
+      <label for="comments">Comments</label>
+      <textarea id="comment" name="comment"></textarea>
+    </div>
+    
+   
+    <div>
+        <label for="date">Let us wish you a Happy Birthday!</label>
+        <input type="date" name="birthday" id="birthday" min="2023-1-1">
+      </div>
+
+
+<div class=button>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+</div>
+  </form>
+  <!-- <script src="scripts.js"></script> -->
+</body>
+</html>
